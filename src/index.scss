@@ -3,11 +3,12 @@
 }
 
 body {
-	margin: 0;
+	margin: 0 auto;
 	font-family: 'Open Sans', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	padding: 20px 40px;
+	max-width: 3000px;
 }
 
 code {
