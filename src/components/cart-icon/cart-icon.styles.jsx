@@ -19,7 +19,7 @@ export const ShoppingIcon = styled(ShoppingSvg)`
 
 export const ItemCount = styled.span`
 	position: absolute;
-	font-size: 10px;
+	font-size: 13px;
 	font-weight: bold;
-	bottom: 12px;
+	bottom: 7px;
 `;
