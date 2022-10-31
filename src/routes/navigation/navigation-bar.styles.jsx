@@ -23,6 +23,10 @@ export const NavLinks = styled.div`
 	align-items: center;
 	justify-content: flex-end;
 	font-size: 20px;
+	@media (max-width: 900px) {
+		width: 70%;
+		font-size: 14px;
+	}
 `;
 
 export const NavLink = styled(Link)`

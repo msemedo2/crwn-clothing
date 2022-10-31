@@ -43,6 +43,12 @@ export const DirectoryItemContainer = styled.div`
 	border: 1px solid black;
 	margin: 0 7.5px 15px;
 	overflow: hidden;
+	@media (max-width: 900px) {
+		min-width: 40%;
+	}
+	@media (max-width: 500px) {
+		min-width: 60%;
+	}
 	&:hover {
 		cursor: pointer;
 		& ${BackgroundImage} {

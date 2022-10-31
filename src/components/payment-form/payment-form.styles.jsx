@@ -12,6 +12,9 @@ export const PaymentFormContainer = styled.div`
 export const FormContainer = styled.form`
 	height: 100px;
 	min-width: 500px;
+	@media (max-width: 900px) {
+		min-width: 300px;
+	}
 `;
 
 export const CardInfo = styled(CardElement)`

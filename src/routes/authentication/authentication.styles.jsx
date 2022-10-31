@@ -6,7 +6,7 @@ export const AuthenticationContainer = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	margin: 30px auto;
-	@media (max-width: 1000px) {
+	@media (max-width: 900px) {
 		flex-direction: column;
 	}
 `;
