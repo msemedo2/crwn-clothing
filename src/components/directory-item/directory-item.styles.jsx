@@ -35,7 +35,7 @@ export const Body = styled.div`
 
 export const DirectoryItemContainer = styled.div`
 	min-width: 30%;
-	height: 240px;
+	height: 400px;
 	flex: 1 1 auto;
 	display: flex;
 	align-items: center;
@@ -45,9 +45,11 @@ export const DirectoryItemContainer = styled.div`
 	overflow: hidden;
 	@media (max-width: 900px) {
 		min-width: 40%;
+		height: 300px;
 	}
 	@media (max-width: 500px) {
 		min-width: 60%;
+		height: 240px;
 	}
 	&:hover {
 		cursor: pointer;
