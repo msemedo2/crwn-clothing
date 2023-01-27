@@ -23,13 +23,13 @@ const middleWares = [
 	sagaMiddleware,
 ].filter(Boolean);
 
-const composeEnchancer =
+const composeEnhancer =
 	(process.env.NODE_ENV !== 'production' &&
 		window &&
 		window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) ||
 	compose;
 
-const composeEnhancers = composeEnchancer(applyMiddleware(...middleWares));
+const composeEnhancers = composeEnhancer(applyMiddleware(...middleWares));
 
 export const store = createStore(persistedReducer, undefined, composeEnhancers);
 
